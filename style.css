@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: rgb(255,255,255);
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+  width: 20%;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgbs(0,0,0,0.75)), url(background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.navbar {
+  float: left;
+  width: 100%;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.logo {
+  margin-top: 35px;
+  margin-left: 20px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.navbar ul li {
+list-style: none;
+margin: 0px 10px;
+justify-content: space-between;
+padding-top: 5px;
+position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.content {
+  margin-left: 160px;
+  position: center;
+  text-align: center;
+  color: #fff;
+  width: 70%;
+  margin-top: -500px;
+  margin-bottom: 100px;
+  margin-right: 170px;
+}
+
+.content h2 {
+  font-size: 70px;
+  color: rgb(199, 0, 0);
+}
+
+.content p {
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.content1 {
+  margin-left: 160px;
+  position: center;
+  text-align: center;
+  color: #fff;
+  width: 70%;
+  margin-top: -700px;
+  margin-bottom: 100px;
+  margin-right: 170px;
+}
+
+.content1 h2 {
+  font-size: 70px;
+  color: rgb(199, 0, 0);
+}
+
+.content1 p {
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.content2 {
+  margin-left: 160px;
+  position: center;
+  text-align: center;
+  color: #fff;
+  width: 70%;
+  margin-top: -700px;
+  margin-bottom: 100px;
+  margin-right: 170px;
+}
+
+.content2 h2 {
+  font-size: 70px;
+  color: rgb(199, 0, 0);
+}
+
+.content2 p {
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.gif {
+  position:absolute;
+}
+
+footer {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.news1 {
+  width: 750px;
+}
+
+.news2 {
+  width: 400px;
+  padding: 20px;
+}
+
+.news3 {
+  width: 400px;
+  padding: 20px;
+}
+
+.news4 {
+  width: 400px;
+  padding: 20px;
+}
+
+.news5 {
+  width: 400px;
+  padding: 20px;
+}
